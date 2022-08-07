@@ -1,0 +1,1246 @@
+ 
+ 
+ 
+ /*
+ 
+ 
+ media query fearures for all the devices are below:
+
+
+ 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV
+ 
+ 
+ */
+ 
+ 
+ /* media query for mobile devices */
+ 
+ @media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /*======= auto typed section starts ===*/
+.header-box h1{
+  font-size: 30px !important;
+}
+
+/*=========== auto typed section ends ====*/
+
+
+/*=========== about section starts ============*/
+  #about-section{
+    text-align: center !important;
+    height: 100vh !important;
+    font-size: 14px;
+    margin-bottom: 100px;
+  }
+
+
+  #about-section .deepak h3{
+    font-size: 20px;
+  }
+
+  .deepak h3 span{
+    font-size: 25px !important;
+     
+  }
+
+ 
+  #about-section .image{
+    margin-top: 50px !important;
+    height: 250px !important;
+    width: 250px !important;
+    margin: auto;
+  }
+  
+.section-head {
+  font-weight: 900 !important;
+  font-size: 25px !important;
+  padding-top: 50px !important;
+  margin-bottom: 20px !important;
+}
+
+
+/*======== about section ends =========*/
+
+
+/*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 150vh !important;
+}
+
+#services-section .service{
+  height: 200px !important;
+  width: 250px !important;
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+
+.service .service-icon{
+  height: 50px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+
+
+
+/* ================= skills section starts ================*/
+ 
+
+#skills-section{
+ margin-bottom: 50px !important;
+ height: 100vh !important;
+}
+
+
+ 
+#skills-section .row{
+  display: flex !important;
+  flex-direction: column !important;
+  text-align: center !important;
+}
+#skills-section .row .list h2{
+  font-size: 15px !important;
+
+ }
+
+#skills-section .main1{
+  margin-bottom: -250px !important;
+  margin-top: -50px !important;
+ }
+
+
+ #skills-section .main2{
+  margin-bottom: -100px !important;
+ }
+
+
+ #skills-section .row .list{
+  height: 400px !important;
+  width: 100% !important;
+  margin: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  align-items: center !important;
+ }
+
+
+ .main-list  {
+
+  text-align: center !important;
+  display: flex !important;
+  justify-content: center !important;
+
+  
+ }
+
+ .main-list li p{
+  padding-left: 10px !important;
+  border-left: 5px double yellow !important;
+   border-bottom: 0 !important;
+   font-size: 13px !important;
+   margin-right: 5px !important;
+
+}
+  
+
+
+
+ #skills-section .row .p-last{
+   border-bottom: 1px solid white !important;
+   font-size: 13px !important;
+   text-align: center;
+   margin-top: 10px ;
+   padding-bottom: 10px !important;
+ }
+ 
+ 
+/* ================= skills section ends ================*/
+
+
+ /* ============ project section starts =============*/
+
+
+
+#projects-section{
+  height: 150vh !important;
+  color: white;
+}
+
+#projects-section .row{
+  text-align: center !important;
+   
+}
+ 
+.project{
+  height: 250px !important;
+  width: 250px !important;
+  margin: auto !important;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px !important;
+}
+
+.project-img{
+  height: 100% !important;
+  width: 100% !important;
+ 
+
+}
+
+ 
+
+.full-project{
+  
+  margin-top: 40px !important;
+}
+
+.full-project a{
+
+  background-color: black;
+  color: white;
+  text-decoration: none;
+   padding: 10px 60px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+  text-align: center;
+
+}
+
+
+.full-project a:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.5);
+}
+
+/*=========== project section ends ================*/
+
+/*================== skills section starts =============*/
+
+#skills-section{
+  height: 70vh !important;
+}
+
+
+#skills-section h3 {
+  margin-top: 50px !important;
+   
+  text-decoration-thickness: 5px !important;
+
+}
+
+.skills {
+   
+  margin-top: 20px !important;
+  margin-left: -50px;
+  
+}
+
+
+.skills img {
+  height: 30px !important;
+  width: auto !important;
+   
+  
+
+
+}
+
+
+#skills-section p {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*================ skills section ends =============*/
+
+
+/*========= contact section starts ===*/
+
+
+#contact-section h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#contact-section .location .location-map{
+  height: 300px !important;
+  width: 300px !important;
+}
+
+/********** form section starts *********/
+
+form{
+  margin:auto !important;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  max-height: 400px;
+  border-radius: 10px;
+
+
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 10px !important;
+  background: rgb(255, 175, 2);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  
+}
+
+
+/************ form section ends ***********/
+
+/*=================== contact section ends =======*/
+
+
+/*======== footer section starts ==========*/
+
+
+#footer-section{
+  height: 30vh !important;
+   
+ }
+ 
+ #footer-section .row{
+   padding: 10px !important;
+ }
+ 
+  
+ 
+
+/*========= footer section ends ======*/
+
+
+
+
+}
+
+/* media query for ipads and tablets */
+
+
+@media only screen and (min-width:481px) and (max-width: 768px){
+
+    /*======= auto typed section starts ===*/
+.header-box h1{
+  font-size: 30px !important;
+}
+
+/*=========== auto typed section ends ====*/
+
+
+
+/*=========== about section starts ============*/
+#about-section{
+  text-align: center !important;
+  height: 100vh !important;
+  font-size: 14px;
+  margin-bottom: 150px;
+}
+
+
+#about-section .deepak h3{
+  font-size: 20px;
+}
+
+.deepak h3 span{
+  font-size: 25px !important;
+}
+
+#about-section .image{
+  margin-top: 50px !important;
+  height: 250px !important;
+  width: 250px !important;
+  margin: auto;
+}
+
+.section-head {
+font-weight: 900 !important;
+font-size: 25px !important;
+padding-top: 50px !important;
+margin-bottom: 20px !important;
+}
+
+
+/*======== about section ends =========*/
+
+
+/*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 150vh !important;
+  
+}
+
+#services-section .service{
+  height: 200px !important;
+  width: 400px !important;
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+
+.service .service-icon{
+  height: 50px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+  
+/* ================= skills section starts ================*/
+ 
+
+#skills-section{
+  margin-bottom: -100px !important;
+ 
+ }
+ 
+ 
+  
+ #skills-section .row{
+   display: flex !important;
+   flex-direction: column !important;
+   text-align: center !important;
+ }
+ #skills-section .row .list h2{
+   font-size: 15px !important;
+ 
+  }
+ 
+ #skills-section .main1{
+   margin-bottom: -250px !important;
+   margin-top: -50px !important;
+  }
+ 
+ 
+  #skills-section .main2{
+   margin-bottom: -100px !important;
+  }
+ 
+ 
+ 
+  #skills-section .row .list{
+   height: 400px !important;
+   width: 100% !important;
+   margin: auto !important;
+   display: flex !important;
+   justify-content: center !important;
+   flex-direction: column !important;
+   align-items: center !important;
+  }
+ 
+ 
+  .main-list  {
+ 
+   text-align: center !important;
+   display: flex !important;
+   justify-content: center !important;
+ 
+   
+  }
+ 
+  .main-list li p{
+   padding-left: 10px !important;
+   border-left: 5px double yellow !important;
+    border-bottom: 0 !important;
+    font-size: 13px !important;
+    margin-right: 5px !important;
+ 
+ }
+   
+ 
+ 
+ 
+  #skills-section .row .p-last{
+    border-bottom: 1px solid white !important;
+    font-size: 13px !important;
+    text-align: center;
+    margin-top: 10px ;
+    padding-bottom: 10px !important;
+  }
+  
+  
+ /* ================= skills section ends ================*/
+
+ /* ========== projects section starts =======*/
+
+   
+   #projects-section{
+    height: 150vh !important;
+   }
+
+
+   #projects-section .project{
+    margin: auto !important;
+    height: 300px;
+    width: 400px !important;
+   }
+
+   #projects-section .full-project{
+    margin-top: 10px !important;
+   }
+
+
+ /* ============ projects section ends ======= */
+
+ 
+
+/*========= contact section starts ===*/
+
+
+#contact-section h3{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#contact-section .location .location-map{
+  height: 400px !important;
+  width: 90% !important;
+}
+
+/********** form section starts *********/
+
+form{
+  margin:auto !important;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  max-height: 400px;
+  border-radius: 10px;
+
+
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+
+form button{
+  padding: 10px !important;
+  background: rgb(255, 175, 2);
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  
+}
+
+
+/************ form section ends ***********/
+
+/*=================== contact section ends =======*/
+
+
+/*======== footer section starts ==========*/
+
+
+#footer-section{
+  height: 30vh !important;
+   
+ }
+ 
+ #footer-section .row{
+   padding: 10px !important;
+ }
+ 
+  
+ 
+
+/*========= footer section ends ======*/
+
+
+
+
+}
+
+ 
+/*==== media queries for Small screens, laptops ====*/
+
+@media only screen and (min-width:769px) and (max-width:991px){
+
+
+  /*======= auto typed section starts ===*/
+  .header-box h1{
+    font-size: 45px !important;
+    font-weight: 900;
+  }
+  
+  /*=========== auto typed section ends ====*/
+  
+  
+  /*=========== about section starts ============*/
+   
+    
+  .section-head {
+    font-weight: 900 !important;
+    font-size: 40px !important;
+    padding-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  #about-section{
+    text-align: center !important;
+    height: 150vh;
+  }
+  
+ #about-section .row .image{
+  margin: auto !important;
+  height: 250px !important;
+  width: 250px !important;
+  margin-top: 100px !important;
+ }
+
+ #about-section .row .image img{
+  margin-top: 50px !important;
+}
+  
+  
+  .btn {
+    width: 150px !important;
+    height: 40px !important;
+    margin: 0.35em !important;
+    border-radius: 0.625em !important;
+    font-size: 15px !important;
+    line-height: 30px !important;
+    margin-top: -40px !important;
+  }
+  
+  
+  /*======== about section ends =========*/
+
+/*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 150vh !important;
+}
+
+#services-section .service{
+  height: 200px !important;
+  width: 250px !important;
+  margin: auto !important;
+  margin-bottom: 20px !important;
+}
+
+.service .service-icon{
+  height: 50px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+
+  /*================== skills section starts =============*/
+  
+  #skills-section{
+    height: 100vh !important;
+  }
+  
+  .list h2{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+  }
+
+
+  .list{
+    margin: auto !important;
+  }
+
+  .list p{
+    font-size: 15px !important;
+    border-bottom: 3px solid white !important;
+  }
+
+
+  .main2{
+    margin-top: -200px !important;
+    margin-bottom: -100px !important;
+  }
+
+
+   
+ 
+  /*================ skills section ends =============*/
+
+
+  
+  /* ============ projects section starts ======== */
+
+#projects-section {
+  height: 150vh !important;
+  margin-bottom: 100px !important;
+  
+  
+ 
+}
+
+
+ #projects-section .row .project{
+  margin: auto !important;
+  height: 400px !important;
+  width: 400px !important;
+  margin-bottom: -100px !important;
+ }
+  
+
+
+ .full-project{
+  margin-top: 40px !important;
+ }
+
+  
+
+
+/*========== projects section ends ============*/
+  
+  
+ 
+  
+  
+  /*========= contact section starts ===*/
+  
+  
+  #contact-section h3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  #contact-section .location .location-map{
+    height: 400px !important;
+    width: 90% !important;
+  }
+  
+  /********** form section starts *********/
+  
+  form{
+    margin:auto !important;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 10px;
+  
+  
+  }
+  
+  form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  form button{
+    padding: 10px !important;
+    background: rgb(255, 175, 2);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
+    
+  }
+  
+  
+  /************ form section ends ***********/
+  
+  /*=================== contact section ends =======*/
+  
+  
+  /*======== footer section starts ==========*/
+  
+  
+  #footer-section{
+    height: 30vh !important;
+     
+   }
+   
+   #footer-section .row{
+     padding: 10px !important;
+   }
+   
+    
+   
+  
+  /*========= footer section ends ======*/
+  
+  
+  
+
+} 
+
+@media only screen and (min-width:992px) and (max-width:1024px){
+  
+
+  /*======= auto typed section starts ===*/
+  .header-box h1{
+    font-size: 55px !important;
+    font-weight: 900;
+  }
+  
+  /*=========== auto typed section ends ====*/
+  
+  
+  /*=========== about section starts ============*/
+   
+    
+  .section-head {
+    font-weight: 900 !important;
+    font-size: 45px !important;
+    padding-top: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  #about-section{
+    text-align: left !important;
+    height: 150vh;
+  }
+  
+ #about-section .image{
+  height: 250px !important;
+  width: 250px !important;
+ }
+
+ #about-section .about-col{
+  margin: auto !important;
+  margin-top: 100px !important;
+ }
+  
+  
+  
+  /*======== about section ends =========*/
+
+
+  /*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 70vh !important;
+}
+
+#services-section .service{
+  height: 200px !important;
+  width: 250px !important;
+ 
+}
+
+.service .service-icon{
+  height: 50px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+
+   /*================== skills section starts =============*/
+  
+   #skills-section{
+    height: 100vh !important;
+  }
+  
+  
+  #skills-section p {
+  
+    font-size: 13px !important;
+     
+  }
+  
+  /*================ skills section ends =============*/
+  
+  /* ============ projects section starts ======== */
+
+  
+  /* ============ projects section starts ======== */
+
+  #projects-section {
+    height: 70vh !important;
+    margin-bottom: 100px !important;
+    
+    
+   
+  }
+  
+  #projects-section .row{
+   margin-top: 100px !important;
+  }
+  
+   #projects-section .row .project{
+    margin: auto !important;
+    height: 200px !important;
+    width: 300px !important;
+     
+ 
+   }
+    
+
+   #projects-section .project img{
+    height: 100% !important;
+    width: 100% !important;
+   }
+
+   .full-project{
+    margin-top: 100px !important;
+   }
+  
+   
+  
+    
+  
+  
+  /*========== projects section ends ============*/
+ 
+  
+  
+  /*========= contact section starts ===*/
+  
+  
+  #contact-section h3{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  #contact-section .location .location-map{
+    height: 400px !important;
+    width: 90% !important;
+  }
+  
+  /********** form section starts *********/
+  
+  form{
+    margin:auto !important;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 10px;
+  
+  
+  }
+  
+  form input, form textarea{
+    border: 0;
+    margin: 10px 0;
+    padding: 10px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  form button{
+    padding: 10px !important;
+    background: rgb(255, 175, 2);
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    width: 150px;
+    
+  }
+  
+  
+  /************ form section ends ***********/
+  
+  /*=================== contact section ends =======*/
+  
+  
+  /*======== footer section starts ==========*/
+  
+  
+  #footer-section{
+    height: 30vh !important;
+     
+   }
+   
+   #footer-section .row{
+     padding: 10px !important;
+   }
+   
+    
+   
+  
+  /*========= footer section ends ======*/
+  
+  
+  } 
+
+
+  /* media-queries for Desktops, large screens */
+
+  @media only screen and (min-width:1025px) and (max-width: 1200px){
+/*=========== about section starts ===============*/
+
+ #about-section{
+  height: 100vh !important;
+ }
+
+ #about-section{
+  text-align: left !important;
+  
+}
+
+ 
+#about-section .about-col{
+margin: auto !important;
+}
+ 
+
+ #about-section .row .image{
+
+  height: 250px !important;
+  width: 250px !important;
+ }
+
+
+ /*============ about section ends =================*/
+
+ /*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 150vh !important;
+}
+
+#services-section .service{
+  height: 200px !important;
+  width: 250px !important;
+   
+}
+
+.service .service-icon{
+  height: 50px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+
+
+ /* ============ projects section starts ======== */
+
+#projects-section {
+  height: 100vh !important;
+   
+ 
+}
+
+
+#projects-section .project{
+
+  margin: auto !important;
+  height: 200px !important;
+  width: 300px !important;
+}
+
+#projects-section .project img{
+  height: 100% !important;
+  width: 100% !important;
+}
+ 
+
+.full-project{
+  margin-top: 150px !important;
+}
+
+
+/*========== projects section ends ============*/
+
+  }
+
+  /*========= for extra large screen, TV ========*/
+  @media only screen and (min-width:1201px) and (max-width: 1500px){
+
+
+    /* ==== about section starts ==== */
+
+    #about-section{
+     height: 100vh !important;
+    }
+   
+    #about-section .about-col{
+      margin: auto !important;
+      }
+   
+   
+    #about-section .row .image{
+    
+     height: 300px !important;
+     width: 300px !important;
+    }
+
+    /* ==== about section ends ==== */
+
+    /*  ====== service section starts =========== */
+
+
+#services-section{
+  height: 100vh !important;
+}
+
+#services-section .row{
+  margin-top: 20px !important;
+}
+
+#services-section .service{
+  height: 300px !important;
+  width: 300px !important;
+  
+}
+
+.service .service-icon{
+  height: 100px !important;
+  width: auto;
+}
+
+.service .head{
+  font-size: 18px !important;
+  font-weight: 800;
+  text-decoration: underline;
+   
+}
+
+.service p{
+  font-size: 12px !important;
+  font-weight: 600;
+}
+
+ 
+/* ======== service section ends ============== */
+   
+/*=== projects section starts ====*/
+
+
+
+    #projects-section {
+      height: 100vh !important;
+       
+     
+    }
+
+    
+    
+    
+    #projects-section .project{
+    
+      margin: auto !important;
+      height: 250px !important;
+      width: 350px !important;
+    }
+    
+    #projects-section .project img{
+      height: 100% !important;
+      width: 100% !important;
+    }
+     
+    
+    .full-project{
+      margin-top: 100px !important;
+    }
+    
+   
+     }
+
+
+ /*==== projects section ends ====*/
